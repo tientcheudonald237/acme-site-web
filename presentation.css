@@ -1,0 +1,153 @@
+form{
+    background-color: inherit;
+    height: 11vh;
+    color: aliceblue;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 0 18vw;
+    align-items: center;
+}
+
+main{
+    height: 105vh;
+}
+
+.dep{
+    display: flex;
+    flex-flow: nowrap row;
+    gap: 10px;
+}
+
+form input{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+
+form button{
+    color: #fff;
+    background-color: #e8491d ;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+#sec2{
+    display: flex;
+    flex-flow: nowrap row;
+    width: 90vw;
+    height: 70vh;
+    background-color: #fff;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 10vh;
+    font-size: 22px;
+}
+
+#gauche{
+    display: flex;
+    flex-flow: nowrap column;
+    width: 50%;
+    gap: 5vh;
+}
+
+#droite{
+    width: 35%;
+}
+
+
+
+.special{
+    background-color: #35424a;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 15px;
+}
+
+@media only screen and (max-width:540px){
+    form{
+        height: 20vh;
+        flex-flow: nowrap column;
+        padding: 0;
+        justify-content: center;
+    }
+    
+    main{
+        height: 100vh ;
+    }
+
+    form input{
+        height: 25px;
+        width: 60vw;
+    }
+    
+    form button{
+        width: 30vw;
+        height: 25px;
+    }
+
+    #sec2{
+        flex-flow: nowrap column;
+        height: 140vh;
+        font-size: 22px;
+        align-items: center;
+        align-content: center;
+        margin-left: 10px;
+    }
+
+    #gauche{
+        display: flex;
+        flex-flow: nowrap column;
+        width: 100%;
+        gap: 5vh;
+    }
+    
+    #droite{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 540px) and (max-width: 700px){
+    form{
+        height: 20vh;
+        flex-flow: nowrap column;
+        padding: 0;
+        justify-content: center;
+    }
+
+    form input{
+        height: 25px;
+        width: 60vw;
+    }
+    
+    form button{
+        width: 30vw;
+        height: 25px;
+    }
+    
+    #sec2{
+        flex-flow: nowrap column;
+        height: 170vh;
+        font-size: 22px;
+        align-items: center;
+        align-content: center;
+        margin-left: 10px;
+    }
+
+    #gauche{
+        display: flex;
+        flex-flow: nowrap column;
+        width: 100%;
+        gap: 5vh;
+    }
+    
+    #droite{
+        width: 100%;
+    }
+}

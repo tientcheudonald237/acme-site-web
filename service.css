@@ -1,0 +1,242 @@
+#form{
+    background-color: inherit;
+    height: 11vh;
+    color: aliceblue;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 0 18vw;
+    align-items: center;
+}
+
+main{
+    height: 105vh;
+}
+
+.dep{
+    display: flex;
+    flex-flow: nowrap row;
+    gap: 10px;
+}
+
+#form input{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+
+#form button{
+    color: #fff;
+    background-color: #e8491d ;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+#sec2{
+    display: flex;
+    flex-flow: nowrap row;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    padding-top: 7vh;
+}
+
+#gauche{
+    display: flex;
+    flex-flow: nowrap column;
+    width: 40%;
+}
+
+#gauche h3{
+    font-size: 23px;
+}
+
+#droite{
+    width: 35%;
+    background-color: #35414a;
+    color: aliceblue; 
+    display: flex;
+    flex-flow: nowrap column;
+    padding: 10px 1.5%;
+    height: 70vh;
+    justify-content: space-around ;
+    font-size: 20px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+#form1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.block{
+    background-color: #dedede;
+    display: flex;
+    flex-flow: nowrap column;
+    gap: 10%;
+    padding:  2% 1% ;
+    margin-top: 2%;
+    border: 0.7px solid #222;
+    height: 25vh;
+}
+
+input,button{
+    width: 95%;
+    height: 25px;
+}
+
+textarea{
+    max-width: 60%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+#bu{
+    display: none;
+}
+
+@media only screen and (max-width:540px){
+    #form{
+        height: 20vh;
+        flex-flow: nowrap column;
+        padding: 0;
+        justify-content: center;
+    }
+    
+    main{
+        height: 200vh ;
+    }
+
+    #form input{
+        height: 25px;
+        width: 60vw;
+    }
+    
+    #form button{
+        width: 30vw;
+        height: 25px;
+    }
+
+    #sec2{
+        flex-flow: nowrap column;
+        height: 200vh;
+        font-size: 22px;
+        align-items: center;
+        align-content: center;
+        margin-left: 10px;
+    }
+
+    #gauche{
+        display: flex;
+        flex-flow: nowrap column;
+        width: 100%;
+        gap: 5vh;
+    }
+
+    .block{
+        flex-flow: nowrap column;
+        gap: 2%;
+        padding:  2% 1% ;
+        margin-top: 2%;
+        border: 0.7px solid #222;
+        height: 35vh;
+    }
+    
+    #droite{
+        width: 100%;
+        height: 400px;
+        padding: 2px 0.5%;
+        margin: 20px 0;
+    }
+
+    input,button{
+        width: 95%;
+        height: 25px;
+    }
+    
+    textarea{
+        max-width: 200px;
+        max-height: 25px;
+        min-height: 0px;
+    }
+
+   
+}
+
+
+
+@media only screen and (width: 640px){
+    #form{
+        height: 20vh;
+        flex-flow: nowrap column;
+        padding: 0;
+        justify-content: center;
+    }
+
+    #form input{
+        height: 25px;
+        width: 60vw;
+    }
+
+    #bu{
+        display: inline;
+        font-size: 50px;
+        border: none;
+        background-color: #fff;
+        margin-left: 200px;
+    }
+    
+    #form button{
+        width: 30vw;
+        height: 25px;
+    }
+    
+    main{
+        height: 550vh;
+    }
+
+    #sec2{
+        flex-flow: nowrap column;
+        height: 200vh;
+        font-size: 22px;
+        align-items: center;
+        align-content: center;
+        margin-left: 10px;
+    }
+
+    #gauche{
+        display: flex;
+        flex-flow: nowrap column;
+        width: 100%;
+        gap: 5vh;
+    }
+
+    .block{
+        flex-flow: nowrap column;
+        gap: 2%;
+        padding:  2% 1% ;
+        margin-top: 2%;
+        border: 0.7px solid #222;
+        height: 55vh;
+    }
+    
+    #droite{
+        display: none;
+        width: 100%;
+        height: 400px;
+        padding: 2px 0.5%;
+        margin: 20px 0;
+    }
+
+    input,button{
+        width: 95%;
+        height: 25px;
+    }
+}

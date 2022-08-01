@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    font-style: normal;
+    font-weight: normal;
+    font: 16px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fff;
+}
+
+footer{
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+    height: 18vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+
+
+nav{
+    background-color: #35424a;
+    display: flex;
+    color: #fff;
+    height: 90px;
+    width: 100vw;
+    padding: 0 19vw;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-bottom: 5px solid #e8491d;
+}
+
+nav h2{
+    text-align: center;
+    width: 60%;
+    font-size: 32px;
+}
+
+nav a:hover{
+    color: #e8491d;
+}
+
+em{
+    color: #e8491d;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+    nav{
+        flex-flow: nowrap column;
+        font-size: 13px;
+        justify-content: space-around;
+    }
+    nav h2{
+        font-size: 23px;
+    }
+    main{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    footer{
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width:639px){
+    nav{
+        flex-flow: nowrap column;
+        font-size: 13px;
+        justify-content: space-around;
+        height: 15vh;
+    }
+    nav h2{
+        font-size: 20px;
+    }
+    main{
+        width: 100vw;
+        height: 200vh;
+    }
+
+    footer{
+        font-size: 21px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px) and (min-width:768px){
+
+}
+
+@media only screen and (min-width:1025px){
+
+}
